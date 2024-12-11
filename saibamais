@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saiba Mais - Batalha de Robôs</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-banner">
+        <h1>Os Robôs Guerreiros</h1>
+    </header>
+
+    <main>
+        <section id="construcao" class="section">
+            <div class="container">
+                <h2>Como Foi Construído</h2>
+                <p>Os robôs foram construídos com:</p>
+                <ul class="construction-list">
+                    <li>ARDUINO UNO</li>
+                    <li>JUMPERS (FIOS)</li>
+                    <li>BATERIA 9V</li>
+                    <li>RESISTOR</li>
+                    <li>PONTE H</li>
+                    <li>MÓDULO BLUETOOTH</li>
+                    <li>PROTOBOARD</li>
+                    <li>2 MOTORES PARA A LOCOMOÇÃO</li>
+                </ul>
+                <img src="../img/robo.png" alt="Robô Guerreiro" class="robo-img">
+            </div>
+        </section>
+
+        <section id="objetivo" class="section">
+            <div class="container">
+                <h2>Objetivo</h2>
+                <p>O projeto consiste em dois robôs desenvolvidos do zero, controlados via celular, com o objetivo de competir entre si. Cada robô possui um alfinete preso à sua estrutura e deve tentar estourar a bexiga do oponente.</p>
+            </div>
+        </section>
+
+        <section id="cta" class="section">
+            <div class="container">
+                <a href="../pag/index.html" class="btn-modern">Voltar</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Batalha de Robôs - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
