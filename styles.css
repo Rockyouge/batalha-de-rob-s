@@ -1,0 +1,140 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Fonte moderna aplicada */
+}
+
+/* Cores suaves */
+:root {
+    --cor-primaria: #e0f7fa; /* Azul claro */
+    --cor-secundaria: #4dd0e1;
+    --cor-texto: #09091f;
+    --cor-botao: #1a9c99; /* Verde escuro */
+    --cor-hover: #004d40; /* Tom mais escuro para hover */
+}
+
+/* Body */
+body {
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto);
+    line-height: 1.6;
+}
+
+/* Títulos */
+header h1, .section h2 {
+    font-weight: 600; /* Mais destacado */
+    text-transform: uppercase; /* Títulos mais impactantes */
+    letter-spacing: 1px; /* Aumenta o espaçamento entre as letras */
+}
+
+/* Texto do body e seções */
+header p, .section p {
+    font-weight: 300; /* Texto mais leve */
+    color: #555; /* Texto mais suave */
+}
+
+/* Header */
+header {
+    background-color: var(--cor-secundaria);
+    text-align: center;
+    padding: 60px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+/* Seções */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: var(--cor-texto);
+}
+
+.section p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.7;
+}
+
+/* Lista de Construção */
+.construction-list {
+    list-style: none;
+    font-size: 1.1em;
+    line-height: 2;
+}
+
+.construction-list li::before {
+    content: "•";
+    color: var(--cor-botao);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Imagem Robô */
+.robo-img {
+    max-width: 400px;
+    width: 100%;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Banner de imagem */
+.banner img {
+    width: 100%; /* Ocupa toda a largura */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaços extras abaixo da imagem */
+}
+
+/* Imagens controladas */
+.imgControler {
+    width: 100%; /* Imagens responsivas */
+    max-width: 300px; /* Define o tamanho máximo */
+    height: auto;
+    margin: 20px auto; /* Espaçamento entre as imagens e centraliza */
+    display: block; /* Garante que as imagens fiquem uma abaixo da outra */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Botão */
+.btn, .btn-modern {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: var(--cor-botao);
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 50px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-modern:hover, .btn:hover {
+    background-color: var(--cor-hover);
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: var(--cor-secundaria);
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    color: white;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
